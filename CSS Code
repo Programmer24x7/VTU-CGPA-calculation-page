@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100hv;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:100%;
+  
+}
+.container{
+  background-color: aliceblue;
+  text-align: center;
+  margin-top: 8%;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+  7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+
+.cgpa-title{
+  color: white;
+  font-weight: 300;
+    margin-top: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    text-align: center;
+}
+.credits{
+  font-size: large;
+  color: white;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border:none;
+  border-radius: 20px;
+  border: 1px solid blue;
+  border-width: 5px;
+  display: inline-block;
+}
+.input-section {
+  font-size: large;
+  color:white;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border:none;
+  border-radius: 20px;
+  border: 1px solid blue;
+  border-width: 5px;
+  display: inline-block;
+}
+
+
+.button{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+  
+}
+.sub {
+  background-color: blue;
+  padding: 5px;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  height: 32px;
+  width: 80px;
+  font-style: bold;
+  font-size: medium;
+  cursor:pointer;
+  box-shadow: 1.2px 1.2px 1.2px white ;
+}
+.sub:hover{
+  background-color: white;
+  color: blue;
+  opacity: 0.5;
+}
+.sub:active{
+  background-color: white;
+  opacity: 0.8;
+}
+.del {
+  background-color: blue;
+  padding: 5px;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  height: 32px;
+  width: 80px;
+  font-style: bold;
+  font-size: medium;
+  cursor:pointer;
+  box-shadow: 1.2px 1.2px 1.2px white ;
+}
+.del:hover{
+  background-color: white;
+  color: blue;
+  opacity: 0.5;
+}
+.del:active{
+  background-color: white;
+  opacity: 0.8;
+}
+.output{
+  
+  text-align: center;
+  font-style: bold;
+  color: white;
+  margin-top: 20px;
+}
+.back{
+  position: absolute;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 45px;
+  width: 120px;
+  padding:5px;
+  cursor: pointer;
+  font-style: normal;
+  font-size: large;
+  box-shadow: 1.5px 1.5px 1.5px violet;
+  top:20px;
+  left: 20px;
+}
+.back:hover{
+  background-color: aliceblue;
+  color: blueviolet;
+  opacity: 0.8;
+}
+.back:active{
+  background-color: blueviolet;
+  color: white;
+  opacity: 0.8;
+}
+.about{
+  position: absolute;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 45px;
+  width: 120px;
+  padding:5px;
+  cursor: pointer;
+  font-style: normal;
+  font-size: large;
+  box-shadow: 1.5px 1.5px 1.5px violet;
+  top:20px;
+  right: 20px;
+
+}
+.about:hover{
+  background-color: aliceblue;
+  color: blueviolet;
+  opacity: 0.8;
+}
+.about:active{
+  background-color: blueviolet;
+  color: white;
+  opacity: 0.8;
+}
+

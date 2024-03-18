@@ -1,0 +1,134 @@
+// onclick Event function call to get all input value.
+document.querySelector('#sub').addEventListener('click',() =>{
+//to read the input of the credits
+   credit1=document.getElementById('1st').value;
+   credit2=document.getElementById('2nd').value;
+   credit3=document.getElementById('3rd').value;
+   credit4=document.getElementById('4th').value;
+   credit5=document.getElementById('5th').value;
+   credit6=document.getElementById('6th').value;
+   credit7=document.getElementById('7th').value;
+   credit8=document.getElementById('8th').value;
+
+//to read the input of sgpa
+   let first_gpa=document.querySelector('#one').value;
+   let first_gpa_per=(credit1 * first_gpa);
+   let first_gpa_per_result=first_gpa_per.toPrecision(2);
+   if(credit1==""){
+      first_gpa_per_result = 0;
+      credit1 = 0;
+   }
+   else
+   {
+      first_gpa_per=(credit1 * first_gpa);
+      first_gpa_per_result=first_gpa_per;
+   }
+   
+   
+   let two_gpa=document.querySelector("#two").value;
+   let two_gpa_per=(credit2 * two_gpa);
+   let two_gpa_per_result=two_gpa_per.toPrecision(3);
+    if(credit2==""){
+      two_gpa_per_result = 0;
+      credit2 = 0;
+   }
+   
+   
+   let three_gpa=document.querySelector("#three").value;
+   let three_gpa_per=(credit3 * three_gpa);
+   let three_gpa_per_result=three_gpa_per.toPrecision(3);
+    
+    if(credit3==""){
+     
+      three_gpa_per_result = 0;
+      credit3 = 0;
+   }
+ 
+  
+   let four_gpa=document.querySelector("#four").value;
+   let four_gpa_per=(credit4 * four_gpa);
+   let four_gpa_per_result=four_gpa_per.toPrecision(3);
+    if(credit4==""){
+      four_gpa_per_result = 0;
+      credit4 = 0;
+   }
+   
+   
+   let five_gpa=document.querySelector("#five").value;
+   let five_gpa_per=(credit5* five_gpa);
+   let five_gpa_per_result=five_gpa_per.toPrecision(3);
+    if(credit5==""){
+      five_gpa_per_result = 0;
+      credit5 = 0;
+   }
+   
+   
+
+   let six_gpa=document.querySelector("#six").value;
+   let six_gpa_per=(credit6 * six_gpa);
+   let six_gpa_per_result=six_gpa_per.toPrecision(3);
+   if(credit6==""){
+      six_gpa_per_result = 0;
+      credit6 = 0;
+   }
+  
+   
+   let seven_gpa=document.querySelector("#seven").value;
+   let seven_gpa_per=(credit7 * seven_gpa);
+   let seven_gpa_per_result=seven_gpa_per.toPrecision(3);
+    if(credit7==""){
+      seven_gpa_per_result = 0;
+      credit7 = 0;
+   }
+
+   let eight_gpa=document.querySelector("#eight").value;  
+   let eight_gpa_per=(credit8 * eight_gpa);
+   let eight_gpa_per_result=eight_gpa_per.toPrecision(3);
+    if(credit8==""){
+      eight_gpa_per_result = 0;
+      credit8 = 0;
+   }
+  alert("The Total CGPA");
+   //Logic for calculation of CGPA
+   let total =
+(parseFloat(first_gpa_per_result)+
+parseFloat(two_gpa_per_result)+
+parseFloat(three_gpa_per_result)+
+parseFloat(four_gpa_per_result)+
+parseFloat(five_gpa_per_result)+
+parseFloat(six_gpa_per_result)+
+parseFloat(seven_gpa_per_result)+
+parseFloat(eight_gpa_per_result))/(parseFloat(credit1)+
+parseFloat(credit2)+
+parseFloat(credit3)+
+parseFloat(credit4)+
+parseFloat(credit5)+
+parseFloat(credit6)+
+parseFloat(credit7)+
+parseFloat(credit8));
+
+let total_cgpa=total.toPrecision(3);
+
+document.querySelector('.output h1').innerHTML=`Total CGPA = ${total_cgpa}`})
+
+document.querySelector('#del').addEventListener('click',() =>{
+document.querySelector('.output h1').innerHTML=`TOTAL CGPA =`
+document.querySelector('#one').value='';
+document.querySelector('#two').value='';
+document.querySelector('#three').value='';
+document.querySelector('#four').value='';
+document.querySelector('#five').value='';
+document.querySelector('#six').value='';
+document.querySelector('#seven').value='';
+document.querySelector('#eight').value='';
+document.getElementById('1st').value='';
+document.getElementById('2nd').value='';
+document.getElementById('3rd').value='';
+document.getElementById('4th').value='';
+document.getElementById('5th').value='';
+document.getElementById('6th').value='';
+document.getElementById('7th').value='';
+document.getElementById('8th').value='';
+  })
+
+

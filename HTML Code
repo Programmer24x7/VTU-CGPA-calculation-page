@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css"/>
+    <title>
+    CGPA
+   </title>
+   </head>
+	<br>
+	</br>
+  <body>
+  
+  <div class="container">   
+
+    <h1 class="cgpa-title" >CGPA CALCULATION</h1>
+  
+   
+     <div class="input-section">
+       <h2> SGPA</h2> 
+        <input type="number" id="one" name="1st sem" placeholder="ENTER 1st SEM MARKS">
+        
+        <input type="number" id="two" name="2nd sem" placeholder="ENTER 2nd SEM MARKS">
+
+        <input type="number" id="three" name="3rd sem" placeholder="ENTER 3rd SEM MARKS">
+          
+
+        <input type="number" id="four" name="4th sem" placeholder="ENTER 4th SEM MARKS">
+
+        <input type="number" id="five" name="5th sem" placeholder="ENTER 5th SEM MARKS">
+
+        <input type="number" id="six"  name="6th sem" placeholder="ENTER 6th SEM MARKS">
+
+        <input type="number" id="seven" name="7th sem" placeholder="ENTER 7th SEM MARKS">
+
+        <input type="number" id="eight" name="8th sem" placeholder="ENTER 8th SEM MARKS">
+      
+     </div>
+     <div class="credits">
+      <h2>CREDITS</h2>
+      <input type="number"  id="1st" placeholder="ENTER 1st SEM Credit" >
+        
+      <input type="number"  id="2nd" placeholder="ENTER 2nd SEM Credit" >
+
+      <input type="number"  id="3rd" placeholder="ENTER 3rd SEM Credit" >
+      
+      <input type="number"  id="4th" placeholder="ENTER 4th SEM Credit" >
+
+      <input type="number" id="5th"  placeholder="ENTER 5th SEM Credit" >
+
+      <input type="number"  id="6th" placeholder="ENTER 6th SEM Credit" >
+
+      <input type="number"  id="7th" placeholder="ENTER 7th SEM Credit" >
+
+      <input type="number"  id="8th" placeholder="ENTER 8th SEM Credit" >
+     </div>
+    
+    <div class="output">
+     <h1>Total CGPA =</h1>
+    </div>
+    
+    <div class="button">
+        <input type="submit" id="sub" class="sub" value="TOTAL">
+
+        <input type="submit" id="del" class="del" value="DELETE">
+        
+    </div>
+
+</form>
+</div>
+</div>
+<script src="cgpacalculation.js"></script>
+</body>
+</html>

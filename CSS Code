@@ -31,7 +31,7 @@ body {
  }
 
 .cgpa-title{
-  color: white;
+  color: black;
   font-weight: 300;
     margin-top: 1.3em;
     font-family: 'Times New Roman', Times, serif;
@@ -40,7 +40,7 @@ body {
 }
 .credits{
   font-size: large;
-  color: white;
+  color: black;
   position: relative;
   width: 250px;
   height: 250px;
@@ -57,7 +57,7 @@ body {
 }
 .input-section {
   font-size: large;
-  color:white;
+  color:black;
   position: relative;
   width: 250px;
   height: 250px;
@@ -83,7 +83,7 @@ body {
 .sub {
   background-color: blue;
   padding: 5px;
-  color:white;
+  color:black;
   border: none;
   border-radius: 5px;
   height: 32px;
@@ -105,7 +105,7 @@ body {
 .del {
   background-color: blue;
   padding: 5px;
-  color:white;
+  color: black;
   border: none;
   border-radius: 5px;
   height: 32px;
@@ -128,7 +128,7 @@ body {
   
   text-align: center;
   font-style: bold;
-  color: white;
+  color: blacke;
   margin-top: 20px;
 }
 .back{
@@ -136,7 +136,7 @@ body {
   background-color: blueviolet;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: black;
   height: 45px;
   width: 120px;
   padding:5px;
@@ -162,7 +162,7 @@ body {
   background-color: blueviolet;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: black;
   height: 45px;
   width: 120px;
   padding:5px;
